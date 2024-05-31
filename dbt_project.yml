@@ -11,3 +11,8 @@ models:
   facebook_pages:
     +schema: facebook_pages
     +materialized: table
+
+
+vars:
+    facebook_pages_schema: facebook_pages
+    facebook_pages_database: DedicatePoolDatatest 
